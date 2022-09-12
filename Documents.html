@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+	 <link rel="icon"
+    href="https://ho8yys03ry3jpzhn1r3a9wmr-wpengine.netdna-ssl.com/wp-content/uploads/2022/08/cropped-favicon-1-32x32-1-192x192.png"
+    sizes="192x192" />
+  <link rel="apple-touch-icon"
+    href="https://ho8yys03ry3jpzhn1r3a9wmr-wpengine.netdna-ssl.com/wp-content/uploads/2022/08/cropped-favicon-1-32x32-1-180x180.png" />
+	<title>3GPP</title>
+	<link rel="shortcut icon" type="image/png" href="/media/images/favicon.png">
+	<!-- <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.datatables.net/rss.xml"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="/media/css/site-examples.css?_=9232c2d632184e64624a48b405b3a3831"> -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="index copy.css">
+	<!-- <link rel="stylesheet" type="text/css" href="index contol text.scss"> -->
+	<style type="text/css" class="init">
+	
+	</style>
+	<!-- <script type="text/javascript" src="/media/js/site.js?_=0c2fbf9886ac7879bde5ccbf9389fa9a"></script> -->
+	<script src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
+	<!-- <script type="text/javascript" src="/media/js/dynamic.php?comments-page=examples%2Fbasic_init%2Fzero_configuration.html" async></script> -->
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+	<!-- <script type="text/javascript" language="javascript" src="../resources/demo.js"></script> -->
+	<script type="text/javascript" class="init">
+	
+
+$(document).ready(function () {
+	$('#example').DataTable({
+		stateSave: true,
+// 		oLanguage: {
+//    "sSearch": "your-text-here"
+//  }
+	});
+});
+
+
+	</script>
+</head>
+<!-- <body class="wide comments example"> -->
+<body>
+	<a name="top" id="top"></a>
+	<div class="fw-background">
+		<div></div>
+	</div>
+		<div class="fw-body">
+			<div class="content">
+				<style>
+					.button {
+					  padding: 4px 8px;
+					  font-size: 15px;
+					  text-align: center;
+					  text-decoration: none;
+					  cursor: pointer;
+					  outline: none;
+					  color: #fff;
+					  background-color: #04AA6D;
+					  border: none;
+					  border-radius: 15px;
+					  box-shadow: 0 3px #999;
+					}
+					
+					.button:hover {background-color: #3e8e41}
+					
+					.button:active {
+					  background-color: #3e8e41;
+					  box-shadow: 0 2px #666;
+					  transform: translateY(4px);
+					}
+					</style>
+				<div class="demo-html container">
+					<!-- <label style="color:white">Show <select name="example_length" aria-controls="example" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label> -->
+					<table id="example" class="display" style="width:100%">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Access Link</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Cat Proactive cmds 102.223</td>
+								<td><a href="./Documents/ts_102223v140000p.pdf" class="button">Go</a></td>
+							
+							<tr>
+								<td>ISIM 31.103</td>
+								<td><a href="./Documents/ts_131103v170000p.pdf" class="button">Go</a></td>
+							</tr>
+							<tr>
+								<td>SIM 11.11</td>
+								<td><a href="./Documents/ts_100977v081400p.pdf" class="button">Go</a></td>
+							</tr>
+							<tr>
+								<td>STK 11.14</td>
+								<td><a href="./Documents/ts_101267v081800p.pdf" class="button">Go</a>
+								</td>
+							</tr>
+							<tr>
+								<td>USIM 31.102</td>
+								<td><a href="./Documents/ts_131102v170500p.pdf" class="button">Go</a>
+								</td>
+							</tr>
+							<script>
+								function CopyMe(TextToCopy) {
+  									var TempText = document.createElement("input");
+  									TempText.value = TextToCopy;
+  									document.body.appendChild(TempText);
+  									TempText.select();
+  
+  									document.execCommand("copy");
+  									document.body.removeChild(TempText);
+  
+  									alert("Copied the text: " + TempText.value);
+								}
+								</script>
+						</tbody>
+						<tfoot>
+							<tr>
+								<th>Name</th>
+								<th>Access Link</th>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+</body>
+</html>
