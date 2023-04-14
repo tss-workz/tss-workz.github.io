@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="icon"
+    href="https://ho8yys03ry3jpzhn1r3a9wmr-wpengine.netdna-ssl.com/wp-content/uploads/2022/08/cropped-favicon-1-32x32-1-192x192.png"
+    sizes="192x192" />
+  <link rel="apple-touch-icon"
+    href="https://ho8yys03ry3jpzhn1r3a9wmr-wpengine.netdna-ssl.com/wp-content/uploads/2022/08/cropped-favicon-1-32x32-1-180x180.png" />
+  <title>Wojtek Class Configuration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="toggler.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="darkreader.js"></script>
+</head>
+
+<body>
+  <!-- navbar -->
+  <header>
+    <div class="navigation w3-highway-blue w3-container">
+      <nav>
+        <a href="https://www.workz.com/">
+          <img src="imageedit_4_6635193426.png" class="hello">
+        </a>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- navbarend -->
+  <div class="services container" id="services">
+	<h2 class="w3-center" style="white-space: nowrap;">Configure Wojtek to use with eUICC profiles</h2>
+</div>
+<article class="w3-center">
+<p style="font-size: 26px;"><b>1. </b>Search for <b>Registry Editor</b>(or)<b>regedit</b> from Windows Search.</p>
+<figure><img src="/img/reg_search.png" title="Windows Search on Taskbar" style="max-width: 30%;"></figure>
+<p style="font-size: 26px;"><b>OR</b></p>
+<p style="font-size: 26px;">Click <b>Start+R</b>. Type <b>regedit</b> in the Open: box, and then select <b>OK</b>.</p>
+<figure><img src="/img/regedit_run.png" title="Windows Run" style="max-width: 30%;"></figure>
+<br>
+<br>
+<br>
+<p style="font-size: 26px;"><b>2. </b>Find <b>Wojtek</b> in the Registry Editor</p>
+<!-- <pre><code class="lang-plaintext">.
+└── .config/
+    └── nvim/
+        ├── init.lua
+        └── lua/
+            └── pulkitgangwar/
+                ├── core/
+                │   ├── options.lua
+                │   ├── remap.lua
+                │   └── colorscheme.lua
+                ├── plugins/
+                │   └── //all-plugins-setup-files
+                └── plugins-setup.lua
+</code></pre> -->
+<figure><img src="/img/Wojtek_reg.jpg" title="Wojtek_reg" style="max-width: 30%;"></figure>
+<br><br><br>
+<p style="font-size: 26px;"><b>3. </b>Find <b>"Non-Default CLA byte"</b> in the Registry Editor Section for <b>Wojtek</b>.</p>
+<p style="font-size: 26px;">If you don't see it then <b>Right Click</b> and create a new entry as follows, then name it as <b>"Non-Default CLA byte"</b> <i> (without the quotes)</i></p>
+<figure><img src="/img/reg_dword.png" title="reg_dword" style="max-width: 30%;"></figure>
+<br><br><br>
+<p style="font-size: 26px;"><b>4. Double Click</b> on <b>"Non-Default CLA byte"</b> and change the <b>Value data</b> as per requirement:</p>
+<br><br>
+<p style="font-size: 26px;"><b>For custom eUICC (Class: 80):</b></p>
+<figure><img src="/img/Wojtek_80.jpg" title="Wojtek_80" style="max-width: 30%;"></figure>
+<br>
+<p style="font-size: 26px;"><b>For default UICC (Class: A0):</b></p>
+<figure><img src="/img/Wojtek_A0.jpg" title="Wojtek_A0" style="max-width: 30%;"></figure>
+<br><br><br>
+<p style="font-size: 26px;"><b>5. Click</b> on <b>Ok</b> and close the Registry Editor, then restart Wojtek.</p>
+<br><br><br>
+</body>
+
+</html>
