@@ -1,0 +1,10 @@
+unzip LogosJavaCardDevEnv.7z to c:\
+it should look like this:
+c:\
+	|
+	|
+	|--LogosJavaCardDevEnv
+				|
+				|
+				|--eclipse_Kepler
+				|--javaCardLibraries
